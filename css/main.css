@@ -1,0 +1,285 @@
+.home {
+    background-image: url(../images/intro-bg\ \(1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+ .home-bc{
+    background-color: rgba(0, 0, 0, 0.6);
+     height: 100vh; 
+} 
+.navbar{
+/* background-color: rgba(0, 0, 0, 0.3); */
+position: fixed;
+z-index: 2000;
+}
+.backgroung{
+    background-color: #0078ff;
+}
+
+.navbar{
+    transition: background-color 1s;
+}
+
+
+.content p::after{
+    content: "";
+    animation: typing 2s infinite alternate;
+}
+@keyframes typing {
+    0%{
+        content: "|";
+    }
+    8%{
+        content: "W|";
+    }
+    16%{
+        content: "We|";
+    }
+    24%{
+        content: "Web|";
+    }
+    32%{
+        content: "Web D|";
+    }
+    40%{
+        content: "Web De|";
+    }
+    48%{
+        content: "Web Dev|";
+    }
+    56%{
+        content: "Web Deve|";
+    }
+    64%{
+        content: "Web Devel|";
+    }
+    72%{
+        content: "Web Develo|";
+    }
+    80%{
+        content: "Web Develop|";
+    }
+    90%{
+        content: "Web Develope|";
+    }
+    100%{
+        content: "Web Developer|";
+    }
+}
+.content h1{
+    font-size: 4rem;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.nav-item::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 10;
+    bottom: 0;
+    background-color: #fff;
+    transition: width 0.35s ;
+  }
+   .nav-item:hover::after {
+    width: 40%;
+  } 
+   .home-underline::after {
+    content: "";
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    left: 10;
+    bottom: 0;
+    background-color: #fff;
+}   
+.about-content h5{
+    position: relative;
+}
+.about-content h5::after {
+content: "";
+position: absolute;
+top: 40;
+left: 0;
+width: 100px;
+height: 3px;
+background-color:  #0078ff;
+}
+.services p{
+    position: relative;
+}
+.services p::after {
+content: "";
+position: absolute;
+/* top: 40px;
+left: 48%; */
+left: 50%;
+top: 100%;
+transform: translateX(-50%);
+width: 45px;
+height: 5px;
+background-color:  #0078ff;
+margin-top: 10px;
+}
+.services-icon{
+    border: 12px solid #007bff;
+    padding: 25px;
+    border-radius: 50%;
+}
+.services-icon{
+transition: all 0.5s;
+}
+.icon-hover:hover .services-icon {
+background-color: #007bff;
+color: #fff;
+border-color: #cde1f8;
+}
+.counter{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.counter-bc{
+    background-color:rgba(0, 120, 225, 0.7);
+}
+.icon-1{
+    border: 10px solid #d9e8fb;
+    border-radius: 50%;
+}
+.portfolio p{
+    position: relative;
+}
+.portfolio p::after {
+content: "";
+position: absolute;
+/* top: 40px;
+left: 48%; */
+left: 50%;
+top: 100%;
+transform: translateX(-50%);
+margin-top: 10px;
+width: 45px;
+height: 5px;
+background-color:#0078ff;
+}
+.portofolio-plus{
+    border: 2px solid #0078ff;
+    border-radius: 50%;
+}
+.portfolio-img img{
+    transition: all 1s;
+}
+.portfolio-img{
+    overflow: hidden;
+}
+.transform:hover img{
+    transform: scale(1.3);
+}
+.slide{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.slide-bc{
+    background-color:rgba(0, 120, 225, 0.7);
+}
+ .slide-content i{
+    width: 52px ;
+    height: 52px;
+} 
+.blog p{
+    position: relative;
+}
+.blog p::after {
+content: "";
+position: absolute;
+/* top: 40px;
+left: 48%; */
+left: 50%;
+top: 100%;
+transform: translateX(-50%);
+margin-top: 10px;
+width: 45px;
+height: 5px;
+background-color:  #0078ff;
+}
+.footercard-img{
+    width: 32px;
+    /* height: 32px; */
+}
+.footer-word{
+    font-size: 14px;
+}
+a{
+    transition: all 1s;
+}
+.card-shadow{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.card-body a:hover h5 {
+color: #0078ff;
+}
+.card-body h5{
+    transition: color 0.5s;
+}
+.card-footer a:hover span{
+    color: #0078ff;
+}
+.card-footer span{
+    transition: color 0.5s;
+}
+.contact{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.contact-bc{
+    background-color:rgba(0, 120, 225, 0.7);
+}
+.contact-shadow{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.contact h5{
+    position: relative;
+}
+.contact h5::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+    left: 0;
+}
+.btn .border-color{
+    color:#cde1f8;
+}
+.btn:hover{
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+.social-icons{
+    border: 4px solid #0078ff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top:7px ;
+    font-size: 1.2rem;
+}
+ .social-icons{
+    transition: all 0.5s;
+    } 
+    .social-icons:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #cde1f8;
+    }
+
